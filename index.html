@@ -26,18 +26,31 @@
             gap: 35px;
             justify-content: center;
         }
-        .gallery img {
-            width: 350px;
-            height: auto;
-            border: 3px solid #444;
+        img {
+            width: auto;
+            height: 300px;
+            border: 1px solid #444;
+            border-radius: 2%;
+            transition: border 0.175s ease-in-out;
+        }
+        img:hover {
+            border-color: aqua;
+            border-width: 3px;
         }
         footer {
             background-color: #202020;
             text-align: center;
-            padding: 16px;
+            padding: 5px;
             font-size: 16px;
             font-family: Georgia;
-            line-height:1%;
+            line-height:150%;
+        }
+        li a {
+            color:white;
+            transition: color 0.35s ease;
+        }
+        li a:hover {
+            color:aqua;
         }
     </style>
     <header>    
@@ -46,8 +59,6 @@
     </header>
 </head>
 <body>
-
-
     <h2 style="line-height:225%">La biografia di Noelle Mansbridge</h2>
 <p>
         Noelle Mansbridge, nata il 6 giugno del 2003 a Toronto (Canada)<br>
@@ -69,16 +80,18 @@
 
 <section>
     <h2>link/immagini</h2>
-    <div class="gallery">
-        <a href="https://youtu.be/9wQnO-Katws?si=-07aOhz2dD7GD-Bm"><img src="CH.png" alt="CHASER"></a>
-        <a href="https://youtu.be/SEMVNUItKZc?si=iv2GxdbNtGR7DMeH"><img src="LSCN.png" alt="LOVESICK, CANNIBAL!"></a>
-        <img src="femtanyl.png" alt="Una foto di femtanyl">
-        <a href="https://www.youtube.com/@Femtanyl03"><img src="femtanyl03.png" alt="Canale youtube di femtanyl"></a>
-    </div>
+    <a href="https://youtu.be/9wQnO-Katws?si=-07aOhz2dD7GD-Bm"><img src="https://i.ytimg.com/vi/9wQnO-Katws/hqdefault.jpg" alt="CHASER"></a>
+    <a href="https://youtu.be/SEMVNUItKZc?si=iv2GxdbNtGR7DMeH"><img src="https://i.ytimg.com/vi/SEMVNUItKZc/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBjAWAAuADigIMCAAQARghIBMofzAP&rs=AOn4CLAduFqBt7a83OzB0_lkANpWEhRZlw" alt="LOVESICK, CANNIBAL!"></a>
+    <a href="https://www.youtube.com/@Femtanyl03"><img src="https://yt3.googleusercontent.com/PeoVoHAvwqeHtqwa1HFuFllW2j7v4oV9ikXfmMvyylBjbE6PvFeogQA62mYMR13UqknOEeLHyw" alt="Canale youtube di femtanyl"></a>
+    <img style="border: 3px solid #444;" src="https://static.wikia.nocookie.net/youtube/images/3/36/Femtaynl_I_guess.jpg/revision/latest/scale-to-width-down/268?cb=20250103034827" alt="Una foto di femtanyl">
 </section>
 
 <footer>
     <p><i><u>Creato da Federico De Gaspari</i></u></p>
-    <p style="font-size:1px;">:3</p>
+	<ul style="list-style-type:none;">
+        <li>○ <a href="https://femtanyl.fandom.com/wiki/Femtanyl_Wiki">Pagina Fandom</a></li>
+		<li>○ <a href="https://youtube.fandom.com/wiki/Femtanyl">Wikitubia</a></li>
+		<li>○ <a href="https://genius.com/artists/Femtanyl">genius.com</a></li>
+    </ul>
 </footer>
 </body>
